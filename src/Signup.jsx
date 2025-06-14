@@ -53,7 +53,6 @@ function Signup() {
     };
     users.push(newUser);
     localStorage.setItem('users', JSON.stringify(users));
-    alert('Signup successful! Redirecting to login...');
     navigate('/login');
   };
 
