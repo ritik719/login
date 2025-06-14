@@ -30,6 +30,8 @@ function Login() {
     return newErrors;
   };
 
+   
+
   const handleSubmit = (e) => {
     e.preventDefault();
     const validationErrors = validate();
@@ -52,7 +54,7 @@ function Login() {
       {/* Left Image */}
       <div className="hidden md:flex md:w-1/2 items-center justify-center bg-gray-100">
         <div className="sticky top-0 h-screen flex items-center justify-center p-8">
-          <img src={start} alt="Startup" className="w-full max-w-md" />
+          <img src={start} alt="Startup" className="w-lvh h-lvh" />
         </div>
       </div>
 

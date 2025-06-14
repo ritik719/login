@@ -62,7 +62,7 @@ function Signup() {
       {/* Left Image */}
       <div className="hidden md:flex md:w-1/2 items-center justify-center bg-gray-100">
         <div className="sticky top-0 h-screen flex items-center justify-center p-8">
-          <img src={start} alt="Startup" className="w-full max-w-md" />
+          <img src={start} alt="Startup" className="w-lvh h-lvh" />
         </div>
       </div>
 
@@ -94,7 +94,7 @@ function Signup() {
             <button
               type="submit"
               className="w-full bg-purple-600 text-white p-2 rounded-full hover:bg-purple-700 transition duration-300"
-            >
+ >
               Sign Up
             </button>
           </form>
